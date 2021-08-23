@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "precache-manifest.d8553c4b0e80b9625161ab084836cec3.js"
+  "precache-manifest.eae3e5d5b0512c65a4b9c4fa5fc60d82.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "feverest-vue"});
