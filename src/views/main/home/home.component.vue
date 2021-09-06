@@ -2,7 +2,7 @@
   <div class="home">
     <div class="content">
       <navbar></navbar>
-      <div>
+      <div style="width: 100%"> 
         <img src="@/assets/tastatur.jpg" class="banner-img" />
       </div>
       
