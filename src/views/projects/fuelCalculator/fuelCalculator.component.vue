@@ -59,7 +59,7 @@
                             <div class="fuelCon input-div">
                                 <p class="input-headline">Fuel Consumption:</p>
                                 <div class="fuel-div">
-                                    <input type="number" id="fuelCon" min="0" v-on:change="calculateFuel()" v-model="input.fuelcon">
+                                    <input type="number" id="fuelCon" min="0" placeholder="0" value="" v-on:change="calculateFuel()" v-model="input.fuelcon">
                                     <p>Liters</p>
                                 </div>
                             </div>
