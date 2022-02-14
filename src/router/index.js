@@ -2,7 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import axios from 'axios'
 
-import Test from '@/views/test/test.component.vue'
+import Working from '@/views/working/working.component.vue'
 
 import Home from '@/views/main/home/home.component.vue'
 import Impressum from '@/views/main/impressum/impressum.component.vue'
@@ -91,8 +91,8 @@ const routes = [
 
   {
     path: '/test',
-    name: 'Test',
-    component: Test
+    name: 'Working',
+    component: Working
   }
 ]
 
