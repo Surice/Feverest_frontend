@@ -43,7 +43,7 @@ const routes = [
   {
     path: '/project/mc_c_guide',
     name: 'MC-Crafting-Guide',
-    component: McCGuide
+    component: Working
   },
   {
     path: '/project/fuel_calculator',
