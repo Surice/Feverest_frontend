@@ -2,8 +2,6 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import axios from 'axios'
 
-import Working from '@/views/working/working.component.vue'
-
 import Home from '@/views/main/home/home.component.vue'
 import Impressum from '@/views/main/impressum/impressum.component.vue'
 
@@ -43,7 +41,7 @@ const routes = [
   {
     path: '/project/mc_c_guide',
     name: 'MC-Crafting-Guide',
-    component: Working
+    component: McCGuide
   },
   {
     path: '/project/fuel_calculator',
@@ -86,13 +84,6 @@ const routes = [
     path: '/newsletter/unsubscribe',
     name: 'Newsletter-unsubscribe',
     component: Unsubscribe
-  },
-
-
-  {
-    path: '/test',
-    name: 'Working',
-    component: Working
   }
 ]
 

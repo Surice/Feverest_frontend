@@ -6,7 +6,8 @@
             <h1 class="headline">Minecraft crafting Guide</h1>
             <br>
         </div>
-        <div class="content">
+        <working></working>
+        <div class="content" style="display: none !important">
             <div class="left_side">
                 <div class="input-area field">
                     <div class="input-part">

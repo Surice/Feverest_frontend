@@ -1,0 +1,26 @@
+p{
+    font-weight: 500;
+    color: white;
+    text-shadow: 3px 2px 4px rgb(36, 36, 36);
+    word-break: break-all;
+}
+h2 {
+    color: white;
+    text-shadow: 2px 2px 3px rgb(160, 160, 160);
+}
+.content {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.quoteBlock {
+    max-width: 40vw;
+    padding: 20px;
+}
+.vl {
+    border-left: 6px solid rgb(70, 144, 255);
+    height: 30vh;
+    margin: 15px;
+  }
