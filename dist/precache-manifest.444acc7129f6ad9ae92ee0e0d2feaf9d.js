@@ -48,7 +48,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "img/tastatur.25f8eadc.jpg"
   },
   {
-    "revision": "76d024e89f94891c18fd9acfa52bdc8c",
+    "revision": "5073e8bfe48af6dfbd1598275f9cbe4c",
     "url": "index.html"
   },
   {
