@@ -10,6 +10,7 @@
   import axios from 'axios';
 
   export default {
+    name: "Feverest",
     data: function(){
       return{
         reqUrl: "/api/analytics/newVisit",
@@ -22,6 +23,7 @@
     mounted() {
       axios.get(this.reqUrl);
     },
+    
   }
 </script>
 <style>

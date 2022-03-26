@@ -55,10 +55,11 @@
     margin-right: 8vw;
     font-weight: 800;
     color: whitesmoke;
+    font-size: 32px;
 }
-    .nav-txt:hover{
-        font-size: 35px;
-    }
+.nav-txt:hover{
+    font-size: 35px;
+}
 .navbar-div{
     min-width: 60vw;
     max-width: 70vw;

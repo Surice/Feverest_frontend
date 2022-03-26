@@ -21,32 +21,54 @@ const routes = [
   {
     path: '/',
     name: 'Main',
-    component: Home
+    component: Home,
+    meta: {
+      title: "for gamer",
+      description: "Feverest is a site for gamers, with a Free Games API for Steam and Epic Games as well as calculators for Assetto Corsa Competitione and Minecraft!"
+    }
   },
   {
     path: '/home',
     name: 'Home',
-    component: Home
+    component: Home,
+    meta: {
+      title: "for gamer",
+      description: "Feverest is a site for gamers, with a Free Games API for Steam and Epic Games as well as calculators for Assetto Corsa Competitione and Minecraft!"
+    }
   },
   {
     path: '/impressum',
     name: 'Impressum',
-    component: Impressum
+    component: Impressum,
+    meta: {
+      title: "for gamer"
+    }
   },
   {
     path: '/project/free_Games',
     name: 'Free-Games',
-    component: FreeGames
+    component: FreeGames,
+    meta: {
+      title: "Free Games API",
+      description: "This site offers a free api for temporary free games from steam and epic games"
+    }
   },
   {
     path: '/project/mc_c_guide',
     name: 'MC-Crafting-Guide',
-    component: McCGuide
+    component: McCGuide,
+    meta: {
+      title: "MC Crafting Guide"
+    }
   },
   {
     path: '/project/fuel_calculator',
     name: 'fuel_calculator',
-    component: FuelCalculator
+    component: FuelCalculator,
+    meta: {
+      title: "ACC Fuel Calculator E-Sports",
+      description: "A calculator for several race simulations to calculate for example the fuel needed for a race. Most used for E-Sports"
+    }
   },
 
   {
@@ -78,17 +100,28 @@ const routes = [
   {
     path: '/newsletter/subscribe',
     name: 'Newsletter-subscribe',
-    component: Subscribe
+    component: Subscribe,
+    meta: {
+      title: "Free Games Newsletter"
+    }
   },
   {
     path: '/newsletter/unsubscribe',
     name: 'Newsletter-unsubscribe',
-    component: Unsubscribe
+    component: Unsubscribe,
+    meta: {
+      title: "Free Games Newsletter"
+    }
   }
 ]
 
 const router = new VueRouter({
   routes
+});
+
+router.beforeEach((to, from, next) => {
+  document.title = `Feverest - ${to.meta.title || 'for gamer'}`;
+  next();
 });
 
 export default router

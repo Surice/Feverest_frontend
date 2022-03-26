@@ -3,11 +3,11 @@
     <div class="content">
       <navbar></navbar>
       <div style="width: 100%"> 
-        <img src="@/assets/tastatur.jpg" class="banner-img" />
+        <img src="@/assets/tastatur.jpg" class="banner-img" alt="Banner image"/>
       </div>
       
       <div class="content-home">
-        <img src="@/assets/coding.jpg" class="main-img">
+        <img src="@/assets/coding.jpg" class="main-img" alt="Picture of a monitor with code open">
         <div class="banner">
           <div class="banner-welcome">
             <p>Welcome!</p>
@@ -21,7 +21,7 @@
     <div class="content-projects">
       <div class="projects-hub">
         <div class="project">
-          <img src="@/assets/free-games_icon.png" class="small-box" />
+          <img src="@/assets/free-games_icon.png" class="small-box" alt="The logo of our free games api"/>
           <router-link to="/project/free_Games" class="big-box" tag="button">
             <h4>Free Games</h4>
             <p>
@@ -31,7 +31,7 @@
           </router-link>
         </div>
         <div class="project">
-          <img src="@/assets/acc-assistant-logo.jpg" class="small-box" />
+          <img src="@/assets/acc-assistant-logo.jpg" class="small-box" alt="The logo fo the acc fuel calculator"/>
           <router-link to="/project/fuel_calculator" class="big-box" tag="button">
             <h4>Fuel Calculator</h4>
             <p>
@@ -41,7 +41,7 @@
           </router-link>
         </div>
         <div class="project">
-          <img src="@/assets/mc_screen_crafting.png" class="small-box" />
+          <img src="@/assets/mc_screen_crafting.png" class="small-box" alt="The logo of your Minecraft Crafting Assistant"/>
           <router-link to="/project/mc_c_guide" class="big-box" tag="button">
             <h4>Mincraft Crafting Assistant</h4>
             <p>
