@@ -121,6 +121,7 @@ const router = new VueRouter({
 
 router.beforeEach((to, from, next) => {
   document.title = `Feverest - ${to.meta.title || 'for gamer'}`;
+  document.description = to.meta.description;
   next();
 });
 
