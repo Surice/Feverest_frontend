@@ -121,7 +121,8 @@ const router = new VueRouter({
 
 router.beforeEach((to, from, next) => {
   document.title = `Feverest - ${to.meta.title || 'for gamer'}`;
-  document.description = to.meta.description;
+  let meta = document.createElement('meta');
+  document.getElementsByTagName('meta')["description"].content = to.meta.description || "Feverest is a site for gamers, with a Free Games API for Steam and Epic Games as well as calculators for Assetto Corsa Competitione and Minecraft!";
   next();
 });
 
