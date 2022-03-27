@@ -11,8 +11,8 @@ export default {
                 distance: 20,
                 dropdown: 0,
                 laptime: [],
-                fuelcon: 0,
-                fueltank: 0,
+                fuelcon: null,
+                fueltank: null,
             },
             output: {
                 laps: "",
