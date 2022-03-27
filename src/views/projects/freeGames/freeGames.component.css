@@ -69,3 +69,8 @@ tr:nth-child(even){
 .link:hover{
     text-decoration: underline;
 }
+
+img {
+    max-width: 20px;
+    max-height: 20px;
+}
