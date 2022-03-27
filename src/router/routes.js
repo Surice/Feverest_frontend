@@ -2,8 +2,6 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import axios from 'axios'
 
-import Test from '@/views/test/test.component.vue'
-
 import Home from '@/views/main/home/home.component.vue'
 import Impressum from '@/views/main/impressum/impressum.component.vue'
 
@@ -23,32 +21,54 @@ const routes = [
   {
     path: '/',
     name: 'Main',
-    component: Home
+    component: Home,
+    meta: {
+      title: "for gamer",
+      description: "Feverest is a site for gamers, with a Free Games API for Steam and Epic Games as well as calculators for Assetto Corsa Competitione and Minecraft!"
+    }
   },
   {
     path: '/home',
     name: 'Home',
-    component: Home
+    component: Home,
+    meta: {
+      title: "for gamer",
+      description: "Feverest is a site for gamers, with a Free Games API for Steam and Epic Games as well as calculators for Assetto Corsa Competitione and Minecraft!"
+    }
   },
   {
     path: '/impressum',
     name: 'Impressum',
-    component: Impressum
+    component: Impressum,
+    meta: {
+      title: "for gamer"
+    }
   },
   {
     path: '/project/free_Games',
     name: 'Free-Games',
-    component: FreeGames
+    component: FreeGames,
+    meta: {
+      title: "Free Games API",
+      description: "This site offers a free api for temporary free games from steam and epic games"
+    }
   },
   {
     path: '/project/mc_c_guide',
     name: 'MC-Crafting-Guide',
-    component: McCGuide
+    component: McCGuide,
+    meta: {
+      title: "MC Crafting Guide"
+    }
   },
   {
     path: '/project/fuel_calculator',
     name: 'fuel_calculator',
-    component: FuelCalculator
+    component: FuelCalculator,
+    meta: {
+      title: "ACC Fuel Calculator E-Sports",
+      description: "With the “Fuel Calculator” you can calculate the perfect balenced required amount of fuel needed in the race of your Sim-Racing game: Assetto Corsa Competitzione, Project Cars, iRacing, and so on."
+    }
   },
 
   {
@@ -80,24 +100,29 @@ const routes = [
   {
     path: '/newsletter/subscribe',
     name: 'Newsletter-subscribe',
-    component: Subscribe
+    component: Subscribe,
+    meta: {
+      title: "Free Games Newsletter"
+    }
   },
   {
     path: '/newsletter/unsubscribe',
     name: 'Newsletter-unsubscribe',
-    component: Unsubscribe
-  },
-
-
-  {
-    path: '/test',
-    name: 'Test',
-    component: Test
+    component: Unsubscribe,
+    meta: {
+      title: "Free Games Newsletter"
+    }
   }
 ]
 
 const router = new VueRouter({
   routes
+});
+
+router.beforeEach((to, from, next) => {
+  document.title = `Feverest - ${to.meta.title || 'for gamer'}`;
+  document.getElementsByTagName('meta')["description"].content = to.meta.description || "Feverest is a site for gamers, with a Free Games API for Steam and Epic Games as well as calculators for Assetto Corsa Competitione and Minecraft!";
+  next();
 });
 
 export default router

@@ -1,7 +1,7 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4c71e509d2bdedd84f38",
-    "url": "css/app.a0c8527a.css"
+    "revision": "2f3278d178e932091102",
+    "url": "css/app.a969c632.css"
   },
   {
     "revision": "9072ed27016a494e1cc4",
@@ -10,6 +10,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a45b72955ca1d179fdd4e405881588a5",
     "url": "img/20210602145316_1.a45b7295.jpg"
+  },
+  {
+    "revision": "305f6921ae19f10ced6769a1f9567045",
+    "url": "img/409-tool-outline.305f6921.gif"
   },
   {
     "revision": "0c7b59c38f860e80a511ab298736c1c9",
@@ -44,12 +48,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "img/tastatur.25f8eadc.jpg"
   },
   {
-    "revision": "b3040ec2eea552f0cec5d1dd3bc993fd",
+    "revision": "6aca294e3eb3a8002e5b76c46bac7445",
     "url": "index.html"
   },
   {
-    "revision": "4c71e509d2bdedd84f38",
-    "url": "js/app.bfb5578d.js"
+    "revision": "2f3278d178e932091102",
+    "url": "js/app.40980b0e.js"
   },
   {
     "revision": "9072ed27016a494e1cc4",

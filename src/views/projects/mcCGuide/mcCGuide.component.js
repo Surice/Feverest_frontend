@@ -1,4 +1,6 @@
 import navbar from '@/components/header/header.component.vue';
+import working from '@/components/working/working.component.vue';
+
 import axios from 'axios';
 
 export default {
@@ -17,10 +19,11 @@ export default {
         }
     },
     beforeMount() {
-        this.init();
+        //this.init();
     },
     components: {
-        navbar
+        navbar,
+        working
     },
     methods: {
         init(){

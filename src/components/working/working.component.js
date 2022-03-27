@@ -1,11 +1,9 @@
 export default {
-    name: "Test",
-    template: './test.html',
+    name: "Working_page",
     data: function() {
         return {
             userData: {},
             types: ["appCodeName", "appName", "appVersion", "cookieEnabled", "geolocation", "language", "onLine", "platform", "product", "userAgent"],
-            name: "--noname--"
         }
     },
     beforeMount() {

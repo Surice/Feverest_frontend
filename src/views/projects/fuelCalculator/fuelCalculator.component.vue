@@ -82,7 +82,7 @@
                                     <p class="outputHeadline">The fuel consumption is:</p>
                                 </div>
                                 <div class="fuelOutput output-div">
-                                    <p id= 'ResultFuelCon' class="outputLine"> <b id="fuelOutput"></b></p>
+                                    <p id= 'ResultFuelCon' class="outputLine"> <b id="fuelOutput">-</b></p>
                                     <p>Liters</p>
                                 </div>
                             </div>    
@@ -91,7 +91,7 @@
                                     <p class="outputHeadline">Pit stops needed:</p>
                                 </div>
                                 <div class="output-div">
-                                    <p><b id="boxenstopsOutput"></b></p>     
+                                    <p><b id="boxenstopsOutput">-</b></p>     
                                     <p>pit stops</p>
                                 </div>
                             </div>    
@@ -100,14 +100,15 @@
                             <p class="outputHeadline">The save fuel consumption is:</p>
                         </div>
                         <div class="saveFuel output-div">
-                            <p><b id="saveFuelOutput"></b></p>
+                            <p><b id="saveFuelOutput">-</b></p>
                             <p>Liters</p>
                         </div>
                     </div>    
                 </div>   
                 <div class= "footer">
                     <div class="footer-content">
-                        <p style="margin-left: 15px;">Version 1.4.1</p>
+                        <p style="margin-left: 15px;">Fuel Calculator</p>
+                        <p style="margin-right: 15px;">Version 1.4.2</p>
                     </div>
                 </div> 
             </div>
