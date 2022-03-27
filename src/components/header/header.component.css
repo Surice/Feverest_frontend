@@ -3,7 +3,7 @@
         display: flex;
     }
     .navbar-dropdown{
-        display: none;
+        display: none !important;
     }
     .navbar-me{
         justify-content: flex-start;
