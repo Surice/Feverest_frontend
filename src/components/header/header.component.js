@@ -12,6 +12,7 @@ export default {
     },
     methods: {
         dropdown() {
+            return;
             if(!this.toggle){
                 this.toggle = true;
                 document.getElementById('dropdown-me-content').style.display = "flex";
