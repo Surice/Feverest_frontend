@@ -83,6 +83,8 @@
   border-color: rgb(136, 203, 219);
 }
 
+
+
 .navbar-dropdown {
   position: relative;
   display: inline-block;
@@ -106,22 +108,22 @@
   z-index: 1;
   flex-flow: column;
   width: 16.666vw;
-  background-color: white;
+  background: linear-gradient(rgba(84, 124, 204, 0.9), rgb(84, 124, 204));
   padding-bottom: 5px;
   padding-top: 5px;
-  border-radius: 3px;
-  box-shadow: 2px 2px 3px gray;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-shadow: 2px 3px 3px rgb(32, 86, 173);
   border: none;
+  border-radius: 1.5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .dropdown-content a {
   padding: 1.6vh;
-  color: darkblue !important;
+  color: rgb(245, 245, 245) !important;
   font-weight: bolder;
 }
 .dropdown-content a:hover {
-  background-color: lightgrey;
+  color: rgb(136, 203, 219);
   text-decoration: none;
 }
 
